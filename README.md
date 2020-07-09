@@ -29,18 +29,19 @@ server.get('/categories/*', (req, res) => {
 });
 ```
 
-To see this working end to end:
+To see this working e2e locally:
 
 ```
   npm i
   npm run dev
 ```
 
-If you want to see run this e2e through nginx
+If you want to see this running e2e through NGINX, run:
 
 ```
    npm i
    docker-compise up --build
 ```
 
-If running through docker this will be on port 80
+This will startup on port:80
+
